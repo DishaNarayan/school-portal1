@@ -1,0 +1,54 @@
+.App {
+  margin-top: 15px;
+}
+
+.App .navbar-brand {
+  font-weight: bold;
+}
+
+.custom-overlay {
+  background-color: rgba(144, 238, 144, 0.6);
+}
+
+.custom-sidedrawer {
+  padding: 15px;
+  background-color: #fff;
+  color: #fff;
+  font-size: 16px;
+  width: 300px;
+  height: 100%;
+}
+.custom-sidedrawer a {
+    color: black;
+}
+
+ul.custom-sidedrawer {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+}
+
+.custom-sidedrawer li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+.custom-sidedrawer li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+@media all and (min-width: 480px) {
+
+  .navbar-toggle {
+    display: inline-block;
+    float: none;
+  }
+}
+.navbar-brand{
+  float: none;
+}
